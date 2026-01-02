@@ -14,7 +14,7 @@ const Footer = () => {
               className="h-12 w-auto mb-4 brightness-0 invert"
             />
             <p className="text-slate-400 text-sm leading-relaxed">
-              KAULA EXIM PRIVATE LTD - Your trusted partner for premium ceramic slabs and kitchen sinks export worldwide.
+              KAULA EXIM PRIVATE LTD - Your trusted partner for premium porcelain slabs, stone veneers, and kitchen sinks export worldwide.
             </p>
           </div>
 
