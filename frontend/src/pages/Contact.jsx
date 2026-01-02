@@ -60,8 +60,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email Us',
-      content: 'p.zala@thekaula.com',
-      link: 'mailto:p.zala@thekaula.com'
+      content: 'contact@thekaula.com',
+      link: 'mailto:contact@thekaula.com'
     },
     {
       icon: Globe,
