@@ -11,7 +11,9 @@ const Header = () => {
     { name: 'Home', path: '/' },
     { name: 'About Us', path: '/about' },
     { name: 'Ceramic Slabs', path: '/ceramic-slabs' },
+    { name: 'Stone Veneers', path: '/stone-veneers' },
     { name: 'Kitchen Sinks', path: '/kitchen-sinks' },
+    { name: 'Sanitary Ware', path: '/sanitary-ware' },
     { name: 'Why KAULA', path: '/why-kaula' },
     { name: 'Contact', path: '/contact' }
   ];
