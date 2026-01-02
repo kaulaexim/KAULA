@@ -115,17 +115,17 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Ceramic Slabs */}
+            {/* Porcelain Slabs */}
             <div className="relative group overflow-hidden rounded-lg shadow-lg h-96">
               <img
                 src="https://images.unsplash.com/photo-1737110623339-a31471ad130d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHxsYXJnZSUyMGZvcm1hdCUyMHRpbGVzfGVufDB8fHx8MTc2NzM0ODkxN3ww&ixlib=rb-4.1.0&q=85"
-                alt="Ceramic Slabs"
+                alt="Porcelain Slabs"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent flex flex-col justify-end p-8">
-                <h3 className="text-3xl font-bold text-white mb-2">Ceramic Slabs</h3>
+                <h3 className="text-3xl font-bold text-white mb-2">Porcelain Slabs</h3>
                 <p className="text-slate-200 mb-4">Large-format porcelain slabs for floors, walls, and countertops</p>
-                <Link to="/ceramic-slabs">
+                <Link to="/porcelain-slabs">
                   <Button className="bg-white text-slate-900 hover:bg-slate-100">
                     Explore Range
                     <ArrowRight className="ml-2 h-4 w-4" />
