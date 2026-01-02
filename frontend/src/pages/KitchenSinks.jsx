@@ -2,24 +2,73 @@ import { Link } from 'react-router-dom';
 import { CheckCircle, ArrowRight } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card } from '../components/ui/card';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '../components/ui/tabs';
 
 const KitchenSinks = () => {
-  const benefits = [
-    'Exceptional durability and strength',
-    'Scratch and chip resistant',
-    'Heat resistant up to 280°C',
-    'Non-porous surface - hygienic and easy to clean',
-    'Stain resistant - won\'t absorb colors or odors',
-    'Noise reduction technology',
-    'UV resistant - colors won\'t fade',
-    'Eco-friendly materials'
-  ];
-
-  const specifications = [
-    { label: 'Material', value: 'Granite Composite (80% Granite + 20% Resin)' },
-    { label: 'Bowl Configurations', value: 'Single, Double, 1.5 Bowl' },
-    { label: 'Installation', value: 'Undermount, Drop-in, Flush Mount' },
-    { label: 'Colors Available', value: 'Black, White, Grey, Beige, Brown' }
+  const sinkTypes = [
+    {
+      id: 'fireclay',
+      name: 'Fine Fire Clay Kitchen Sink',
+      description: 'Premium fire clay sinks offering timeless elegance and exceptional durability. Handcrafted with traditional manufacturing techniques for a luxurious finish.',
+      features: [
+        'Handcrafted fine fire clay construction',
+        'High-gloss glazed finish',
+        'Scratch and stain resistant',
+        'Non-porous surface - hygienic',
+        'Heat resistant up to 350°C',
+        'Classic farmhouse and undermount styles',
+        'Resistant to thermal shock',
+        'Easy to clean and maintain'
+      ],
+      specs: [
+        { label: 'Material', value: 'Fine Fire Clay with Glazed Finish' },
+        { label: 'Bowl Options', value: 'Single, Double Bowl' },
+        { label: 'Installation', value: 'Farmhouse, Undermount' },
+        { label: 'Colors', value: 'White, Biscuit, Almond' }
+      ]
+    },
+    {
+      id: 'granite',
+      name: 'Granite Composite Kitchen Sink',
+      description: 'High-performance granite composite sinks combining 80% natural granite with advanced resin technology. Perfect blend of beauty and functionality.',
+      features: [
+        'Exceptional durability and strength',
+        'Scratch and chip resistant',
+        'Heat resistant up to 280°C',
+        'Non-porous surface - prevents bacterial growth',
+        'Stain resistant - won\'t absorb colors',
+        'Noise reduction technology',
+        'UV resistant - colors won\'t fade',
+        'Eco-friendly materials'
+      ],
+      specs: [
+        { label: 'Material', value: '80% Granite + 20% Acrylic Resin' },
+        { label: 'Bowl Options', value: 'Single, Double, 1.5 Bowl' },
+        { label: 'Installation', value: 'Undermount, Drop-in, Flush Mount' },
+        { label: 'Colors', value: 'Black, White, Grey, Beige, Brown, Mocha' }
+      ]
+    },
+    {
+      id: 'stainless',
+      name: 'Stainless Steel Kitchen Sink',
+      description: 'Professional-grade stainless steel sinks perfect for modern kitchens. Durable, hygienic, and designed for heavy-duty use in residential and commercial settings.',
+      features: [
+        'Premium 304 stainless steel construction',
+        'Corrosion and rust resistant',
+        'Heat resistant - safe for hot pots',
+        'Hygienic non-porous surface',
+        'Sound dampening pads reduce noise',
+        'Modern contemporary design',
+        'Easy to clean and sanitize',
+        'Long-lasting durability'
+      ],
+      specs: [
+        { label: 'Material', value: '304 Grade Stainless Steel' },
+        { label: 'Gauge', value: '16, 18, 20 Gauge Options' },
+        { label: 'Bowl Options', value: 'Single, Double, Triple Bowl' },
+        { label: 'Finish', value: 'Satin, Mirror Polish, Brushed' }
+      ]
+    }
   ];
 
   const useCases = [
@@ -45,7 +94,7 @@ const KitchenSinks = () => {
           <div className="max-w-3xl">
             <h1 className="text-5xl font-bold mb-6">Premium Kitchen Sinks</h1>
             <p className="text-xl text-slate-300 leading-relaxed">
-              High-performance granite composite kitchen sinks designed for modern living. Combining beauty, durability, and functionality for residential and commercial applications.
+              Comprehensive range of high-quality kitchen sinks - Fine Fire Clay, Granite Composite, and Stainless Steel. Designed for modern living with exceptional durability and style.
             </p>
           </div>
         </div>
@@ -69,58 +118,70 @@ const KitchenSinks = () => {
         </div>
       </section>
 
-      {/* Product Description */}
+      {/* Sink Types Tabs */}
       <section className="py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">Product Overview</h2>
-              <p className="text-slate-600 leading-relaxed mb-6">
-                Our granite composite kitchen sinks represent the perfect fusion of natural stone beauty and modern engineering. Made from 80% natural granite and 20% high-grade acrylic resin, these sinks offer unparalleled durability and aesthetic appeal.
-              </p>
-              <p className="text-slate-600 leading-relaxed mb-6">
-                Designed to withstand the demands of daily use, our sinks are resistant to scratches, stains, and heat. The non-porous surface prevents bacterial growth, making them ideal for food preparation areas in both residential and commercial settings.
-              </p>
-              <Link to="/contact">
-                <Button className="bg-slate-900 hover:bg-slate-800">
-                  Request Product Catalogue
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </Link>
-            </div>
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-slate-900 mb-4">Our Kitchen Sink Collection</h2>
+            <p className="text-xl text-slate-600">Choose from three premium sink types to match your needs</p>
+          </div>
 
-            <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">Key Benefits</h3>
-              <div className="space-y-3">
-                {benefits.map((benefit, index) => (
-                  <div key={index} className="flex items-start space-x-3">
-                    <CheckCircle className="h-6 w-6 text-slate-900 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-600">{benefit}</span>
+          <Tabs defaultValue="fireclay" className="w-full">
+            <TabsList className="grid w-full grid-cols-1 md:grid-cols-3 mb-8 h-auto">
+              <TabsTrigger value="fireclay" className="text-base py-3">Fine Fire Clay</TabsTrigger>
+              <TabsTrigger value="granite" className="text-base py-3">Granite Composite</TabsTrigger>
+              <TabsTrigger value="stainless" className="text-base py-3">Stainless Steel</TabsTrigger>
+            </TabsList>
+
+            {sinkTypes.map((sink) => (
+              <TabsContent key={sink.id} value={sink.id} className="mt-8">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                  <div>
+                    <h3 className="text-3xl font-bold text-slate-900 mb-4">{sink.name}</h3>
+                    <p className="text-slate-600 leading-relaxed mb-6">
+                      {sink.description}
+                    </p>
+                    <Link to="/contact">
+                      <Button className="bg-slate-900 hover:bg-slate-800">
+                        Request Product Catalogue
+                        <ArrowRight className="ml-2 h-4 w-4" />
+                      </Button>
+                    </Link>
                   </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Specifications */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">Technical Specifications</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {specifications.map((spec, index) => (
-              <Card key={index} className="p-6 border-slate-200">
-                <h4 className="font-semibold text-slate-900 mb-2">{spec.label}</h4>
-                <p className="text-slate-600 text-sm">{spec.value}</p>
-              </Card>
+                  <div>
+                    <h4 className="text-2xl font-bold text-slate-900 mb-6">Key Features</h4>
+                    <div className="space-y-3">
+                      {sink.features.map((feature, index) => (
+                        <div key={index} className="flex items-start space-x-3">
+                          <CheckCircle className="h-6 w-6 text-slate-900 flex-shrink-0 mt-0.5" />
+                          <span className="text-slate-600">{feature}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+
+                {/* Specifications */}
+                <div className="mt-12">
+                  <h4 className="text-2xl font-bold text-slate-900 mb-6 text-center">Technical Specifications</h4>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    {sink.specs.map((spec, index) => (
+                      <Card key={index} className="p-6 border-slate-200">
+                        <h5 className="font-semibold text-slate-900 mb-2">{spec.label}</h5>
+                        <p className="text-slate-600 text-sm">{spec.value}</p>
+                      </Card>
+                    ))}
+                  </div>
+                </div>
+              </TabsContent>
             ))}
-          </div>
+          </Tabs>
         </div>
       </section>
 
       {/* Use Cases */}
-      <section className="py-20 bg-slate-50">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">Ideal For</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -136,50 +197,12 @@ const KitchenSinks = () => {
         </div>
       </section>
 
-      {/* Why Choose Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">Why Choose Our Kitchen Sinks</h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Premium quality meets exceptional value
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-6">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-slate-100 mb-4">
-                <CheckCircle className="h-8 w-8 text-slate-900" />
-              </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-2">Lifetime Durability</h3>
-              <p className="text-slate-600">Built to last with superior materials and construction</p>
-            </div>
-
-            <div className="text-center p-6">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-slate-100 mb-4">
-                <CheckCircle className="h-8 w-8 text-slate-900" />
-              </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-2">Easy Maintenance</h3>
-              <p className="text-slate-600">Simple cleaning with minimal upkeep required</p>
-            </div>
-
-            <div className="text-center p-6">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-slate-100 mb-4">
-                <CheckCircle className="h-8 w-8 text-slate-900" />
-              </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-2">Modern Design</h3>
-              <p className="text-slate-600">Contemporary aesthetics that complement any kitchen</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-20 bg-slate-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6">Interested in Our Kitchen Sinks?</h2>
+          <h2 className="text-4xl font-bold mb-6">Find Your Perfect Kitchen Sink</h2>
           <p className="text-xl text-slate-300 mb-8">
-            Contact us for detailed specifications, samples, and bulk pricing
+            Contact us for detailed specifications, samples, and bulk pricing for all sink types
           </p>
           <Link to="/contact">
             <Button size="lg" className="bg-white text-slate-900 hover:bg-slate-100 text-lg px-8">
