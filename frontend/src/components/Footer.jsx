@@ -91,8 +91,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-slate-400" />
-                <a href="mailto:p.zala@thekaula.com" className="text-slate-400 hover:text-white transition-colors text-sm">
-                  p.zala@thekaula.com
+                <a href="mailto:contact@thekaula.com" className="text-slate-400 hover:text-white transition-colors text-sm">
+                  contact@thekaula.com
                 </a>
               </li>
               <li className="flex items-center space-x-3">
