@@ -10,7 +10,7 @@ const Header = () => {
   const navigation = [
     { name: 'Home', path: '/' },
     { name: 'About Us', path: '/about' },
-    { name: 'Ceramic Slabs', path: '/ceramic-slabs' },
+    { name: 'Porcelain Slabs', path: '/porcelain-slabs' },
     { name: 'Stone Veneers', path: '/stone-veneers' },
     { name: 'Kitchen Sinks', path: '/kitchen-sinks' },
     { name: 'Sanitary Ware', path: '/sanitary-ware' },
