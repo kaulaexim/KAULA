@@ -188,8 +188,12 @@ const Contact = () => {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="ceramic-slabs">Ceramic Slabs</SelectItem>
-                      <SelectItem value="kitchen-sinks">Kitchen Sinks</SelectItem>
-                      <SelectItem value="both">Both Products</SelectItem>
+                      <SelectItem value="stone-veneers">Stone Veneers</SelectItem>
+                      <SelectItem value="kitchen-sinks-fireclay">Kitchen Sinks - Fine Fire Clay</SelectItem>
+                      <SelectItem value="kitchen-sinks-granite">Kitchen Sinks - Granite Composite</SelectItem>
+                      <SelectItem value="kitchen-sinks-stainless">Kitchen Sinks - Stainless Steel</SelectItem>
+                      <SelectItem value="sanitary-ware">Sanitary Ware</SelectItem>
+                      <SelectItem value="multiple">Multiple Products</SelectItem>
                       <SelectItem value="other">Other / General Inquiry</SelectItem>
                     </SelectContent>
                   </Select>
