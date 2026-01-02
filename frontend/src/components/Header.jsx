@@ -37,7 +37,7 @@ const Header = () => {
               </a>
             </div>
             <div className="hidden sm:block text-slate-300">
-              Premium Ceramic Slabs & Kitchen Sink Exporter
+              Premium Porcelain Slabs & Kitchen Sink Exporter
             </div>
           </div>
         </div>
