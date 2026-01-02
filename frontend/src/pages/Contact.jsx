@@ -187,7 +187,7 @@ const Contact = () => {
                       <SelectValue placeholder="Select product" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="ceramic-slabs">Ceramic Slabs</SelectItem>
+                      <SelectItem value="porcelain-slabs">Porcelain Slabs</SelectItem>
                       <SelectItem value="stone-veneers">Stone Veneers</SelectItem>
                       <SelectItem value="kitchen-sinks-fireclay">Kitchen Sinks - Fine Fire Clay</SelectItem>
                       <SelectItem value="kitchen-sinks-granite">Kitchen Sinks - Granite Composite</SelectItem>
