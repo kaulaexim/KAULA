@@ -65,10 +65,11 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Our Products</h3>
             <ul className="space-y-2 text-slate-400 text-sm">
               <li>Large Format Ceramic Slabs</li>
-              <li>Porcelain Slabs</li>
+              <li>Stone Veneers</li>
+              <li>Fine Fire Clay Kitchen Sinks</li>
               <li>Granite Composite Sinks</li>
-              <li>Kitchen Sink Systems</li>
-              <li>Commercial Grade Products</li>
+              <li>Stainless Steel Sinks</li>
+              <li>Sanitary Ware Products</li>
             </ul>
           </div>
 
