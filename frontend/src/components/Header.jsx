@@ -31,9 +31,9 @@ const Header = () => {
                 <Phone className="h-4 w-4" />
                 <span>+91 98980 67267</span>
               </a>
-              <a href="mailto:p.zala@thekaula.com" className="flex items-center space-x-2 hover:text-slate-300 transition-colors">
+              <a href="mailto:contact@thekaula.com" className="flex items-center space-x-2 hover:text-slate-300 transition-colors">
                 <Mail className="h-4 w-4" />
-                <span>p.zala@thekaula.com</span>
+                <span>contact@thekaula.com</span>
               </a>
             </div>
             <div className="hidden sm:block text-slate-300">
