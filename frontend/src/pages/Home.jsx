@@ -134,6 +134,25 @@ const Home = () => {
               </div>
             </div>
 
+            {/* Stone Veneers */}
+            <div className="relative group overflow-hidden rounded-lg shadow-lg h-96">
+              <img
+                src="https://images.pexels.com/photos/6238607/pexels-photo-6238607.jpeg"
+                alt="Stone Veneers"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent flex flex-col justify-end p-8">
+                <h3 className="text-3xl font-bold text-white mb-2">Stone Veneers</h3>
+                <p className="text-slate-200 mb-4">Natural stone veneers for elegant wall cladding and facades</p>
+                <Link to="/stone-veneers">
+                  <Button className="bg-white text-slate-900 hover:bg-slate-100">
+                    Explore Range
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </Link>
+              </div>
+            </div>
+
             {/* Kitchen Sinks */}
             <div className="relative group overflow-hidden rounded-lg shadow-lg h-96">
               <img
@@ -143,8 +162,27 @@ const Home = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent flex flex-col justify-end p-8">
                 <h3 className="text-3xl font-bold text-white mb-2">Kitchen Sinks</h3>
-                <p className="text-slate-200 mb-4">Premium granite composite sinks for residential and commercial use</p>
+                <p className="text-slate-200 mb-4">Fire clay, granite composite, and stainless steel sinks</p>
                 <Link to="/kitchen-sinks">
+                  <Button className="bg-white text-slate-900 hover:bg-slate-100">
+                    View Collection
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </Link>
+              </div>
+            </div>
+
+            {/* Sanitary Ware */}
+            <div className="relative group overflow-hidden rounded-lg shadow-lg h-96">
+              <img
+                src="https://images.pexels.com/photos/3741317/pexels-photo-3741317.jpeg"
+                alt="Sanitary Ware"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent flex flex-col justify-end p-8">
+                <h3 className="text-3xl font-bold text-white mb-2">Sanitary Ware</h3>
+                <p className="text-slate-200 mb-4">Complete range of premium bathroom fixtures and fittings</p>
+                <Link to="/sanitary-ware">
                   <Button className="bg-white text-slate-900 hover:bg-slate-100">
                     View Collection
                     <ArrowRight className="ml-2 h-4 w-4" />
