@@ -49,7 +49,7 @@ const Home = () => {
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
-            Premium Ceramic Slabs &<br />Kitchen Sinks Exporter
+            Premium Porcelain Slabs &<br />Kitchen Sinks Exporter
           </h1>
           <p className="text-xl md:text-2xl text-slate-200 mb-8 max-w-3xl mx-auto">
             KAULA EXIM - Your trusted partner for world-class ceramic products. Serving architects, builders, and distributors globally.
