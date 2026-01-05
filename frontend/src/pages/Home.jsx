@@ -137,8 +137,8 @@ const Home = () => {
             {/* Stone Veneers */}
             <div className="relative group overflow-hidden rounded-lg shadow-lg h-96">
               <img
-                src="https://images.pexels.com/photos/6238607/pexels-photo-6238607.jpeg"
-                alt="Stone Veneers"
+                src="https://customer-assets.emergentagent.com/job_premiumceramics/artifacts/89q6rade_WhatsApp%20Image%202026-01-05%20at%202.49.27%20PM.jpeg"
+                alt="Natural Stone Veneers"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent flex flex-col justify-end p-8">
