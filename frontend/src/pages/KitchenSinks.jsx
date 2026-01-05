@@ -3,6 +3,7 @@ import { CheckCircle, ArrowRight } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card } from '../components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../components/ui/tabs';
+import { Helmet } from 'react-helmet-async';
 
 const KitchenSinks = () => {
   const sinkTypes = [
