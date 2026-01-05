@@ -104,9 +104,9 @@ const KitchenSinks = () => {
       <section className="relative py-20 bg-slate-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-5xl font-bold mb-6">Premium Kitchen Sinks</h1>
+            <h1 className="text-5xl font-bold mb-6">Fire Clay Kitchen Sink & Burly Sink Exporter India</h1>
             <p className="text-xl text-slate-300 leading-relaxed">
-              Comprehensive range of high-quality kitchen sinks - Fine Fire Clay, Granite Composite, and Stainless Steel. Designed for modern living with exceptional durability and style.
+              Premium Fine Fire Clay Kitchen Sinks, Burly Sinks, Granite Composite Sinks & Stainless Steel Sinks. Handcrafted fireclay farmhouse sinks with exceptional durability. ISO certified manufacturer exporting worldwide.
             </p>
           </div>
         </div>
