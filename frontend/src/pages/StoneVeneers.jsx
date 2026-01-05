@@ -234,7 +234,8 @@ const StoneVeneers = () => {
           </Link>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 
