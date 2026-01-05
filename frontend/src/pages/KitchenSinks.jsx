@@ -81,9 +81,9 @@ const KitchenSinks = () => {
   ];
 
   const productImages = [
-    'https://images.unsplash.com/photo-1597497522150-2f50bffea452?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBraXRjaGVuJTIwc2lua3xlbnwwfHx8fDE3NjczNDg5MjJ8MA&ixlib=rb-4.1.0&q=85',
-    'https://images.unsplash.com/photo-1646592491489-ebdf758b9d11?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBraXRjaGVuJTIwc2lua3xlbnwwfHx8fDE3NjczNDg5MjJ8MA&ixlib=rb-4.1.0&q=85',
-    'https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg'
+    'https://customer-assets.emergentagent.com/job_premiumceramics/artifacts/9iwafziv_BS331810SBP%20Sink%20Test%202.jpg',
+    'https://customer-assets.emergentagent.com/job_premiumceramics/artifacts/86nr6mw9_780500%2015%20Longran%20Ultra%20PG_3.jpg',
+    'https://images.unsplash.com/photo-1646592491489-ebdf758b9d11?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBraXRjaGVuJTIwc2lua3xlbnwwfHx8fDE3NjczNDg5MjJ8MA&ixlib=rb-4.1.0&q=85'
   ];
 
   return (
