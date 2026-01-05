@@ -238,7 +238,8 @@ const KitchenSinks = () => {
           </Link>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 
