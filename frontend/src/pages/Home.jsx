@@ -118,7 +118,7 @@ const Home = () => {
             {/* Porcelain Slabs */}
             <div className="relative group overflow-hidden rounded-lg shadow-lg h-96">
               <img
-                src="https://images.unsplash.com/photo-1737110623339-a31471ad130d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHxsYXJnZSUyMGZvcm1hdCUyMHRpbGVzfGVufDB8fHx8MTc2NzM0ODkxN3ww&ixlib=rb-4.1.0&q=85"
+                src="https://customer-assets.emergentagent.com/job_premiumceramics/artifacts/1mpmykh9_Stratum%20Portoro.jpg"
                 alt="Porcelain Slabs"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
