@@ -156,7 +156,7 @@ const Home = () => {
             {/* Kitchen Sinks */}
             <div className="relative group overflow-hidden rounded-lg shadow-lg h-96">
               <img
-                src="https://images.unsplash.com/photo-1597497522150-2f50bffea452?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBraXRjaGVuJTIwc2lua3xlbnwwfHx8fDE3NjczNDg5MjJ8MA&ixlib=rb-4.1.0&q=85"
+                src="https://customer-assets.emergentagent.com/job_premiumceramics/artifacts/86nr6mw9_780500%2015%20Longran%20Ultra%20PG_3.jpg"
                 alt="Kitchen Sinks"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
