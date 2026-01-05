@@ -9,10 +9,10 @@ const KitchenSinks = () => {
   const sinkTypes = [
     {
       id: 'fireclay',
-      name: 'Fine Fire Clay Kitchen Sink (Burly Sink)',
-      description: 'Premium handcrafted Fine Fire Clay Kitchen Sinks, also known as Burly Sinks, offering timeless elegance and exceptional durability. These authentic fireclay farmhouse sinks are manufactured using traditional techniques for a luxurious glazed finish.',
+      name: 'Fine Fire Clay Kitchen Sink',
+      description: 'Premium handcrafted Fine Fire Clay Kitchen Sinks offering timeless elegance and exceptional durability. These authentic fireclay farmhouse sinks are manufactured using traditional techniques for a luxurious glazed finish.',
       features: [
-        'Handcrafted fine fire clay construction (Burly sink quality)',
+        'Handcrafted fine fire clay construction',
         'High-gloss glazed finish - authentic fireclay',
         'Scratch and stain resistant surface',
         'Non-porous hygienic surface',
