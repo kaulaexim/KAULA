@@ -33,7 +33,7 @@ const PorcelainSlabs = () => {
   ];
 
   const productImages = [
-    'https://images.unsplash.com/photo-1737110623339-a31471ad130d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHxsYXJnZSUyMGZvcm1hdCUyMHRpbGVzfGVufDB8fHx8MTc2NzM0ODkxN3ww&ixlib=rb-4.1.0&q=85',
+    'https://customer-assets.emergentagent.com/job_premiumceramics/artifacts/1mpmykh9_Stratum%20Portoro.jpg',
     'https://images.pexels.com/photos/9867320/pexels-photo-9867320.jpeg',
     'https://images.pexels.com/photos/6238607/pexels-photo-6238607.jpeg'
   ];
