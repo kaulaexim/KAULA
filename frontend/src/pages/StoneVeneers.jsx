@@ -54,7 +54,15 @@ const StoneVeneers = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-32">
+    <>
+      <Helmet>
+        <title>Natural Stone Veneers Exporter India | Marble, Granite Stone Cladding | KAULA EXIM</title>
+        <meta name="description" content="Premium natural stone veneers - marble, granite, slate, sandstone. Lightweight stone cladding for interior walls, exterior facades. Export quality from India." />
+        <meta name="keywords" content="stone veneers, natural stone cladding, marble veneers, granite veneers, stone veneer exporter India, wall cladding, stone facade, interior stone veneer" />
+        <link rel="canonical" href="https://www.thekaula.com/stone-veneers" />
+      </Helmet>
+
+      <div className="min-h-screen pt-32">
       {/* Hero Section */}
       <section className="relative py-20 bg-slate-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
