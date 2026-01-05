@@ -59,8 +59,8 @@ const About = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/7221110/pexels-photo-7221110.jpeg"
-                alt="Manufacturing"
+                src="https://customer-assets.emergentagent.com/job_premiumceramics/artifacts/89q6rade_WhatsApp%20Image%202026-01-05%20at%202.49.27%20PM.jpeg"
+                alt="Premium Stone Veneers - Natural Stone Cladding"
                 className="rounded-lg shadow-xl w-full h-96 object-cover"
               />
             </div>
