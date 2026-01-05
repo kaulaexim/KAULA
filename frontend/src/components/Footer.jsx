@@ -9,9 +9,9 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <img 
-              src="https://customer-assets.emergentagent.com/job_premiumceramics/artifacts/9woqnxtc_LOGO.jpg" 
+              src="https://customer-assets.emergentagent.com/job_premiumceramics/artifacts/id7kq5a3_KAULA_Logo_Transparent_HighRes.png" 
               alt="KAULA EXIM" 
-              className="h-12 w-auto mb-4 brightness-0 invert"
+              className="h-12 w-auto mb-4"
             />
             <p className="text-slate-400 text-sm leading-relaxed">
               KAULA EXIM PRIVATE LTD - Your trusted partner for premium porcelain slabs, stone veneers, and kitchen sinks export worldwide.
