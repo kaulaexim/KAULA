@@ -75,8 +75,32 @@ const StoneVeneers = () => {
         </div>
       </section>
 
-      {/* Product Overview */}
+      {/* Product Gallery */}
       <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="relative group overflow-hidden rounded-lg shadow-lg h-80 md:col-span-2">
+              <img
+                src="https://customer-assets.emergentagent.com/job_premiumceramics/artifacts/89q6rade_WhatsApp%20Image%202026-01-05%20at%202.49.27%20PM.jpeg"
+                alt="Premium Natural Stone Veneers - Marble and Granite Stone Cladding"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-slate-900/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            </div>
+            <div className="relative group overflow-hidden rounded-lg shadow-lg h-80">
+              <img
+                src="https://customer-assets.emergentagent.com/job_premiumceramics/artifacts/89q6rade_WhatsApp%20Image%202026-01-05%20at%202.49.27%20PM.jpeg"
+                alt="Stone Veneer Wall Cladding for Interior and Exterior"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-slate-900/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Product Overview */}
+      <section className="py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
