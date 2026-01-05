@@ -116,16 +116,30 @@ const KitchenSinks = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {productImages.map((image, index) => (
-              <div key={index} className="relative group overflow-hidden rounded-lg shadow-lg h-80">
-                <img
-                  src={image}
-                  alt={`Kitchen Sink ${index + 1}`}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-slate-900/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              </div>
-            ))}
+            <div className="relative group overflow-hidden rounded-lg shadow-lg h-80">
+              <img
+                src={productImages[0]}
+                alt="Fine Fire Clay Kitchen Sink - Handcrafted Burly Sink White Farmhouse"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-slate-900/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            </div>
+            <div className="relative group overflow-hidden rounded-lg shadow-lg h-80">
+              <img
+                src={productImages[1]}
+                alt="Granite Composite Kitchen Sink - Premium Quality Sink India"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-slate-900/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            </div>
+            <div className="relative group overflow-hidden rounded-lg shadow-lg h-80">
+              <img
+                src={productImages[2]}
+                alt="Stainless Steel Kitchen Sink - Modern Kitchen Sink Exporter"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-slate-900/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            </div>
           </div>
         </div>
       </section>
