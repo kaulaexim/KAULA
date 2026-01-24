@@ -31,7 +31,7 @@ const About = () => {
       <section className="relative py-20 bg-slate-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-5xl font-bold mb-6">About KAULA EXIM</h1>
+            <h1 className="text-5xl font-bold mb-6">About KAULA</h1>
             <p className="text-xl text-slate-300 leading-relaxed">
               A trusted name in ceramic exports, delivering premium quality products to international markets for over 15 years.
             </p>

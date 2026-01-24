@@ -86,7 +86,7 @@ const WhyKaula = () => {
       <section className="relative py-20 bg-slate-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-5xl font-bold mb-6">Why Choose KAULA EXIM</h1>
+            <h1 className="text-5xl font-bold mb-6">Why Choose KAULA</h1>
             <p className="text-xl text-slate-300 leading-relaxed">
               Your trusted partner for hassle-free ceramic exports. Quality products, reliable service, and competitive pricing for global markets.
             </p>
@@ -162,7 +162,7 @@ const WhyKaula = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Start Your Export Journey?</h2>
           <p className="text-xl text-slate-300 mb-8">
-            Join hundreds of satisfied clients worldwide who trust KAULA EXIM for their ceramic needs
+            Join hundreds of satisfied clients worldwide who trust KAULA for their ceramic needs
           </p>
           <Link to="/contact">
             <Button size="lg" className="bg-white text-slate-900 hover:bg-slate-100 text-lg px-8">

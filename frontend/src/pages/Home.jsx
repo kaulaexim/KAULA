@@ -40,11 +40,11 @@ const Home = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1703838634804-5fb39159f94e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBjZXJhbWljJTIwdGlsZXMlMjBzaG93cm9vbXxlbnwwfHx8fDE3NjczNDg5MDJ8MA&ixlib=rb-4.1.0&q=85"
-            alt="Ceramic Showroom"
+            src="https://customer-assets.emergentagent.com/job_site-icon/artifacts/u0192vq5_BS331810SBP%20Sink%20Test%202.jpg"
+            alt="Premium Fire Clay Kitchen Sink - KAULA"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-slate-900/70" />
+          <div className="absolute inset-0 bg-slate-900/60" />
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -52,7 +52,7 @@ const Home = () => {
             Premium Porcelain Slabs &<br />Kitchen Sinks Exporter
           </h1>
           <p className="text-xl md:text-2xl text-slate-200 mb-8 max-w-3xl mx-auto">
-            KAULA EXIM - Your trusted partner for world-class ceramic products. Serving architects, builders, and distributors globally.
+            KAULA - Your trusted partner for world-class ceramic products. Serving architects, builders, and distributors globally.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/contact">
@@ -88,7 +88,7 @@ const Home = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-slate-900 mb-4">Why Choose KAULA EXIM</h2>
+            <h2 className="text-4xl font-bold text-slate-900 mb-4">Why Choose KAULA</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Leading the ceramic export industry with excellence, reliability, and innovation
             </p>
