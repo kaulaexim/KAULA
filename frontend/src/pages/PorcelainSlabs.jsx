@@ -41,11 +41,11 @@ const PorcelainSlabs = () => {
   return (
     <>
       <Helmet>
-        <title>Large Format Porcelain Slabs Exporter India | 800x3200mm, 1200x2400mm | KAULA EXIM</title>
+        <title>Large Format Porcelain Slabs Exporter India | 800x3200mm, 1200x2400mm | KAULA</title>
         <meta name="description" content="Premium large-format porcelain slabs in sizes 800x1600mm, 800x3200mm, 1200x2400mm, 1600x3200mm. Thickness 6mm, 9mm, 12mm, 15mm, 20mm. Export quality porcelain tiles from India to worldwide." />
         <meta name="keywords" content="porcelain slabs exporter, large format porcelain tiles, 800x3200mm porcelain slabs, porcelain slab manufacturer India, large format tiles, porcelain countertops, porcelain wall cladding" />
         <link rel="canonical" href="https://www.thekaula.com/porcelain-slabs" />
-        <meta property="og:title" content="Large Format Porcelain Slabs Exporter | KAULA EXIM" />
+        <meta property="og:title" content="Large Format Porcelain Slabs Exporter | KAULA" />
         <meta property="og:description" content="Premium porcelain slabs in multiple sizes and finishes. Export quality from India." />
         <meta property="og:url" content="https://www.thekaula.com/porcelain-slabs" />
       </Helmet>

@@ -56,7 +56,7 @@ const StoneVeneers = () => {
   return (
     <>
       <Helmet>
-        <title>Natural Stone Veneers Exporter India | Marble, Granite Stone Cladding | KAULA EXIM</title>
+        <title>Natural Stone Veneers Exporter India | Marble, Granite Stone Cladding | KAULA</title>
         <meta name="description" content="Premium natural stone veneers - marble, granite, slate, sandstone. Lightweight stone cladding for interior walls, exterior facades. Export quality from India." />
         <meta name="keywords" content="stone veneers, natural stone cladding, marble veneers, granite veneers, stone veneer exporter India, wall cladding, stone facade, interior stone veneer" />
         <link rel="canonical" href="https://www.thekaula.com/stone-veneers" />

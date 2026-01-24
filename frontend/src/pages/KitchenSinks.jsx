@@ -90,13 +90,13 @@ const KitchenSinks = () => {
   return (
     <>
       <Helmet>
-        <title>Fire Clay Kitchen Sink Exporter India | Burly Sink, Fine Fire Clay Sink, Farmhouse Sink | KAULA EXIM</title>
+        <title>Fire Clay Kitchen Sink Exporter India | Burly Sink, Fine Fire Clay Sink, Farmhouse Sink | KAULA</title>
         <meta name="description" content="Buy premium Fine Fire Clay Kitchen Sinks, Burly Sinks, Granite Composite & Stainless Steel Sinks from India's leading exporter. Handcrafted fireclay farmhouse sinks. ISO certified quality. Global shipping available." />
         <meta name="keywords" content="fire clay kitchen sink, burly sink, fine fire clay sink, fireclay sink, farmhouse fire clay sink, fire clay sink India, burly kitchen sink, handcrafted fire clay sink, fire clay sink manufacturer, fire clay sink exporter, fireclay farmhouse sink, granite composite sink, stainless steel sink, kitchen sink India, kitchen sink exporter" />
         <link rel="canonical" href="https://www.thekaula.com/kitchen-sinks" />
-        <meta property="og:title" content="Fire Clay Kitchen Sink & Burly Sink Exporter | KAULA EXIM" />
+        <meta property="og:title" content="Fire Clay Kitchen Sink & Burly Sink Exporter | KAULA" />
         <meta property="og:description" content="Premium Fine Fire Clay Kitchen Sinks and Burly Sinks from India. Handcrafted quality, global shipping." />
-        <meta property="og:image" content="https://customer-assets.emergentagent.com/job_premiumceramics/artifacts/9iwafziv_BS331810SBP%20Sink%20Test%202.jpg" />
+        <meta property="og:image" content="https://customer-assets.emergentagent.com/job_site-icon/artifacts/u0192vq5_BS331810SBP%20Sink%20Test%202.jpg" />
       </Helmet>
 
       <div className="min-h-screen pt-32">
