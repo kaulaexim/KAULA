@@ -1,0 +1,26 @@
+{
+  "short_name": "KAULA",
+  "name": "KAULA EXIM - Fire Clay Kitchen Sink Exporter",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0f172a",
+  "background_color": "#ffffff",
+  "description": "Leading exporter of premium Fine Fire Clay Kitchen Sinks, Burly Sinks, Granite Composite Sinks, Porcelain Slabs & Stone Veneers from India."
+}
