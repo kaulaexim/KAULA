@@ -259,7 +259,7 @@ const Contact = () => {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="KAULA EXIM Location - Sakar 9, Ahmedabad"
+              title="KAULA Location - Sakar 9, Ahmedabad"
             />
           </div>
         </div>

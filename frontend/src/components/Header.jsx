@@ -50,7 +50,7 @@ const Header = () => {
           <Link to="/" className="flex items-center">
             <img 
               src="https://customer-assets.emergentagent.com/job_premiumceramics/artifacts/id7kq5a3_KAULA_Logo_Transparent_HighRes.png" 
-              alt="KAULA EXIM" 
+              alt="KAULA" 
               className="h-12 w-auto"
             />
           </Link>
