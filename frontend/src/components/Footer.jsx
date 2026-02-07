@@ -28,6 +28,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/why-kaula" className="text-slate-400 hover:text-white transition-colors text-sm">
+                  Why KAULA
+                </Link>
+              </li>
+              <li>
                 <Link to="/porcelain-slabs" className="text-slate-400 hover:text-white transition-colors text-sm">
                   Porcelain Slabs
                 </Link>
@@ -48,11 +53,6 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/why-kaula" className="text-slate-400 hover:text-white transition-colors text-sm">
-                  Why KAULA
-                </Link>
-              </li>
-              <li>
                 <Link to="/contact" className="text-slate-400 hover:text-white transition-colors text-sm">
                   Contact Us
                 </Link>
@@ -60,16 +60,40 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Products */}
+          {/* Products - Now with Links */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Our Products</h3>
-            <ul className="space-y-2 text-slate-400 text-sm">
-              <li>Large Format Porcelain Slabs</li>
-              <li>Stone Veneers</li>
-              <li>Fine Fire Clay Kitchen Sinks</li>
-              <li>Granite Composite Sinks</li>
-              <li>Stainless Steel Sinks</li>
-              <li>Sanitary Ware Products</li>
+            <ul className="space-y-2">
+              <li>
+                <Link to="/porcelain-slabs" className="text-slate-400 hover:text-white transition-colors text-sm">
+                  Large Format Porcelain Slabs
+                </Link>
+              </li>
+              <li>
+                <Link to="/stone-veneers" className="text-slate-400 hover:text-white transition-colors text-sm">
+                  Stone Veneers
+                </Link>
+              </li>
+              <li>
+                <Link to="/kitchen-sinks" className="text-slate-400 hover:text-white transition-colors text-sm">
+                  Fine Fire Clay Kitchen Sinks
+                </Link>
+              </li>
+              <li>
+                <Link to="/kitchen-sinks" className="text-slate-400 hover:text-white transition-colors text-sm">
+                  Granite Composite Sinks
+                </Link>
+              </li>
+              <li>
+                <Link to="/kitchen-sinks" className="text-slate-400 hover:text-white transition-colors text-sm">
+                  Stainless Steel Sinks
+                </Link>
+              </li>
+              <li>
+                <Link to="/sanitary-ware" className="text-slate-400 hover:text-white transition-colors text-sm">
+                  Sanitary Ware Products
+                </Link>
+              </li>
             </ul>
           </div>
 
